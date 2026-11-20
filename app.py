@@ -4,7 +4,7 @@ st.set_page_config(page_title = "SIET_Chatbot", layout = "centered")
 st.title("SIET-Chatbot")
 st.caption("Ask Anything about College information, Courses, Placements, FAQs, Rules and Regulations")
 st.caption("RAG Pipeline with Multiple files")
-st.caption("Created by Harshitha")
+st.caption("Created by Anusha")
 my_key = st.secrets["GROQ_API_KEY"]
 @st.cache_resource
 def initiate_rag():
