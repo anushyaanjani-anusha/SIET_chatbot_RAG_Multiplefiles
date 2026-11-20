@@ -11,7 +11,7 @@ my_key = st.secrets["GROQ_API_KEY"]
 def initialize_rag():
   return load_knowledge_base("Colleg_docs")
 
-index, embed_model, chunks = initiate_rag()
+index, embed_model, chunks = initialize_rag()
 if "chat_hist" not in st.session_state:   #load and display chat history if exsit if not create new
   st.session_state.chat_hist =[]
 
